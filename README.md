@@ -22,13 +22,7 @@ inside withMiddleware function add below line
         ]);
      
 
-3) Install NPM deps for Bootstrap UI (optional; already using CDN by default):
-```bash
-npm install && npm run build
-```
-*(You can skip if you use CDN as shipped.)*
-
-4) Configure `.env` (DB info). Then run:
+3) Configure `.env` (DB info). Then run:
 ```bash
 php artisan migrate --seed
 php artisan key:generate
