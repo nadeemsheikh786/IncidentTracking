@@ -29,7 +29,7 @@ php artisan key:generate
 php artisan serve
 ```
 
-5) Login with seeded accounts:
+4) Login with seeded accounts:
 - **Admin**: `admin@example.com` / password: `AdminPass@123`
 - **Responder(s)**: `responder1@example.com` ... `responder4@example.com` / password: `ResponderPass@123`
 - **User**: `user@example.com` / password: `UserPass@123`
