@@ -14,14 +14,13 @@ cd incidents
 
 use App\Http\Middleware\EnsureUserHasRole;
 
-inside ->withMiddleware function
+inside withMiddleware function add below line
 
-->withMiddleware(function (Middleware $middleware): void {
-        //
+ 
 		$middleware->alias([
             'role' => EnsureUserHasRole::class,
         ]);
-    })
+     
 
 3) Install NPM deps for Bootstrap UI (optional; already using CDN by default):
 ```bash
