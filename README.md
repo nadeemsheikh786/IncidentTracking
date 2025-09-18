@@ -10,8 +10,10 @@ cd incidents
 ```
 
 2) Copy **all folders** from this pack into your Laravel root, merging directories:
-- `app/`, `routes/`, `database/`, `resources/`, `public/`, `.env.example` (optional override), `bootstrap/app.php` (append note below)
+- `app/`, `routes/`, `database/`, `resources/`, `public/`, `.env.example` (optional override),
 
+`bootstrap/app.php` (append note below)
+add this dependency  
 use App\Http\Middleware\EnsureUserHasRole;
 
 inside withMiddleware function add below line
